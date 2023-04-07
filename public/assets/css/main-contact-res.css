@@ -1,0 +1,327 @@
+@media (max-width: 450px) {
+    img#bginnovassurance.small 
+    {visibility: hidden;
+         height: 0px;}
+    #bginnovassurance.medium 
+    {visibility: hidden; 
+        height: 0px;}
+    #bginnovassurance.big 
+    {visibility: hidden; 
+        height: 0px;}
+    
+        header#innovassurance{
+            width: 100%;
+            margin-top: -10%;
+            margin-bottom: -20%;
+        }
+
+        .box .text{
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 38%;
+            right: 0;
+            top: 18% !important;
+        }
+    } 
+
+
+@media (min-width: 450px) and (max-width: 768px) {
+img#bginnovassurance.small 
+{visibility: hidden;
+     height: 0px;}
+#bginnovassurance.medium 
+{visibility: hidden; 
+    height: 0px;}
+#bginnovassurance.big 
+{visibility: hidden; 
+    height: 0px;}
+
+    header#innovassurance{
+        width: 100%;
+        margin-top: -7%;
+        margin-bottom: -15%;
+    }
+
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 20% !important;
+    }
+} 
+
+@media (min-width: 769px) and (max-width: 992px) {
+    img#bginnovassurance.mobile 
+    {visibility: hidden;
+         height: 0px;}
+    #bginnovassurance.medium 
+    {visibility: hidden; 
+        height: 0px;}
+    #bginnovassurance.big 
+    {visibility: hidden; 
+        height: 0px;}
+        
+        header#innovassurance{
+            width: 100%;
+            margin-bottom: -6.3%;
+        }
+
+        .box .text{
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 56%;
+            right: 0;
+            top: 25% !important;
+        }
+
+    } 
+
+    @media (min-width: 993px) and (max-width: 1199px) {
+        img#bginnovassurance.mobile 
+        {visibility: hidden;
+             height: 0px;}
+        #bginnovassurance.small 
+        {visibility: hidden; 
+            height: 0px;}
+        #bginnovassurance.big 
+        {visibility: hidden; 
+            height: 0px;}
+
+            header#innovassurance{
+                width: 100%;
+                margin-bottom: -2.6%;
+            }
+
+            .box .text{
+                position: absolute;
+                z-index: 999;
+                margin: 0 auto;
+                left: 50%;
+                right: 0;
+                top: 28% !important;
+            }
+        } 
+
+        
+        @media (min-width: 1200px)  {
+            img#bginnovassurance.mobile 
+            {visibility: hidden;
+                 height: 0px;}
+            #bginnovassurance.small 
+            {visibility: hidden; 
+                height: 0px;}
+            #bginnovassurance.medium 
+            {visibility: hidden; 
+                height: 0px;}
+
+                header#innovassurance{
+                    width: 100%;
+                }
+
+                .box .text{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: 38%;
+                    right: 0;
+                    top: 52%;
+                }
+            } 
+
+/* @media (min-width: 1261px) {  
+header#innovassurance{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* background: linear-gradient(155deg, #01062c 50%, #001942 65%, #01e5ee 150%); */
+    /* width: 100%;
+    margin-top: -5%;
+}
+} */
+
+
+
+/* Background */
+
+img#bginnovassurance {
+    width: 100%;
+    margin-top: 1.1%;
+    background-color:  #002d70;
+    }   
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+
+.box .text {
+top : 31%;
+left: 49%;
+}
+
+.box .text h1{
+    text-align: right;
+    background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+}
+
+
+   /* Background Big screen */
+   @media (min-width: 1290px) {  
+
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 48%;
+        right: 0;
+        top: 30%;
+    }
+    
+    .box .text h1{
+        text-align: right;
+        background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.6rem;
+    }
+   }
+
+
+/* Background Small screen */
+ @media (max-width: 894px) and (min-width: 663px) {  
+
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 48%;
+        right: 0;
+        top: 52%;
+    }
+    
+    .box .text h1{
+        text-align: right;
+        background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+
+
+   /* Medium Size Background */
+   @media (max-width: 663px) and (min-width: 582px) {  
+
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 51%;
+        right: 0;
+        top: 53%;
+    }
+    
+    .box .text h1{
+        text-align: right;
+        background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.3rem;
+    }
+   }
+
+
+/* Background VERY Small screen */
+@media (max-width: 582px) and (min-width: 435px) {  
+
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 54%;
+        right: 0;
+        top: 53%;
+    }
+    
+    .box .text h1{
+        text-align: right;
+        background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 0.9rem;
+    }
+   }
+
+/* Background Extra Small screen */
+@media (max-width: 433px) {  
+
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 55%;
+        right: 0;
+        top: 21% !important;
+    }
+    
+    .box .text h1{
+        text-align: right;
+        background: -webkit-linear-gradient(0deg,#1e38ff 0%, #c93bff 65%,#00ffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 0.6rem;
+    }
+   }
+
+   /* MAP  */
+   
+@media (min-width: 766px) {
+    div#map{
+        width:100%;
+        height:400px;
+    }
+}
+
+
+@media (max-width: 766px) {
+    div#map{
+        width:100%;
+        height:300px;
+        }
+}

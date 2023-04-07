@@ -1,0 +1,88 @@
+{
+    "HOME": {
+        "TITLE": " جدول المتابعة "
+    },
+    "DISPLAY": {
+        "RTL": " RTL "
+    },
+    "COMMUN": {
+        "ID": " تعريف ",
+        "LABEL": " الإسم ",
+        "BTN_NEW": " جديد ",
+        "BTN_VALIDATE": " تثبيت ",
+        "BTN_CLOSE": " غلق ",
+        "BTN_CANCEL": " إلغاء ",
+        "BTN_DELETE": " حذف ",
+        "BTN_MODIFIER": " تحديث ",
+        "TITLE_MODIFIER": " تحديث ",
+        "TOOLTIP_SEARCH": ".بحث عام",
+        "TOOLTIP_SHOW": ".إظهار التفاصيل",
+        "TOOLTIP_DELETE": "احذف الخط",
+        "PLACEHOLDER_SEARCH": "...بحث",
+        "UPLOAD_IMG_LABEL": "...إختر صورة"
+    },
+    "CONFIG": {
+        "TITLE_PAGE_KEY": " لوحة التحكم ",
+        "LABEL_KEY": " إسم المشروع ",
+        "TITLE_KEY": " عنوان ",
+        "DEFAULT_LANG_KEY": " لغة ",
+        "FOOTER_KEY": " فوتر ",
+        "VERSION_KEY": " فرسيون ",
+        "COPYRIGHT_KEY": " كوبيرايت ",
+        "DESCRIPTION_KEY": " ملخص ",
+        "MAX_USER_KEY": " عدد المستخدمين ",
+        "LOGO_KEY": " صورة ",
+        "LOGIN_IMG_KEY": " الصورة الأولى "
+    },
+    "BTN": {
+        "SUBSCRIPTION": "إكتتاب"
+    },
+    "DASHBORD": {
+        "BTN_SUBSCRIPTION": "تسجيل",
+        "BTN_MY_ESTIMATE": "تقديراتي",
+        "BTN_MY_CONTRACT": "عقودي",
+        "BTN_MY_SINISTRE": "مطالبات التأمين",
+        "BTN_MY_REFUND": "التسديدات",
+        "TEXT_MACIRVIE_STRONG": "مصير للحياة",
+        "TEXT_MACIRVIE": "هي شركة تأمين جزائرية تقدم لك مجموعة واسعة من الخدمات والحلول لتلبية احتياجاتك المختلفة سواء كنت محترفًا أو خاصًا.\nاشترك في عقد تأمين السفر الخاص بك عبر الإنترنت وادفع باستخدام بطاقة CIB أو EDAHABIA."
+    },
+    "SIDE_BAR": {
+        "HOME": "إستقبال",
+        "SIDE_BAR_MENU_TITLE": "منطقة العملاء",
+        "SIDE_BAR_CONSULTATION": "إستشارة\n",
+        "SIDE_MY_ESTIMATE": "تقديراتي",
+        "SIDE_MY_CONTRACT": "عقودي",
+        "SIDE_MY_SINISTRE": "خسارة",
+        "SIDE_MY_REFUND": "التسديدات",
+        "SIDE_SUBSCRIPTION": "تسجيل","SIDE_SUBSCRIPTION2": "تسجيل 2",
+        "SIDE_CONTACT": "اتصال",
+        "SIDE_ABOUT": "About",
+        "SIDE_CONTACT_US": "اتصل بنا\n",
+        "SIDE_DECLARATION": "إعلان عن كارثة\n"
+    },
+    "SHOW_ESTIMATE": {
+        "MSG_REQ_CARDE_TYPE": "يرجى اختيار نوع بطاقة الدفع\n"
+
+    },
+    "APP-PAYMENT": {
+        "BTN_DOWNLOAD_CONTRACT": "تحميل العقد",
+        "BTN_AVN_CONTRACT": "ملحق",
+        "L_REFERENCE_CONTRACT": "مرجع العقد",
+        "LTAB_DETAIL_CONTRACT": "تفاصيل العقد",
+        "L_LAST_NAME": " اسم",
+        "L_FIRST_NAME": " Prénom",
+        "L_DDN": "تاريخ الميلاد\n",
+        "L_EMAIL": " البريد الإلكتروني",
+        "L_TEL": "هاتف",
+        "L_ADRESSE": "عنوان",
+        "L_START_DATE": "تاريخ البداية",
+        "L_END_DATE": "تاريخ الانتهاء\n",
+         "LTAB_GARANTIE": "Garantie",
+        "L_GARANTIE": "الضمان",
+        "L_LIMITE": "الحد",
+        "L_PRIME": "Prime",
+        "L_CAPITAL": "Capital",
+        "L_TOTAl": "المجموع"
+    }
+
+}

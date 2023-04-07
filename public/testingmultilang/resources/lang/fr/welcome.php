@@ -1,0 +1,27 @@
+<?php
+return [
+    "TITLE"=>"Macir Vie - Compagnie d'assurance de personnes",
+    "LANG"=>"Langue",
+    "MYM_VYG"=>"MyM Voyage",
+    "MYM_ACC"=>"MyM Protection Accidents",
+    "FIRST_COMP"=>"Première compagnie privée spécialisée dans les assurances de personnes",
+    "FIRST_COMP_TEXT"=>"Macir Vie a été fondée le 11 août 2011, suite à la séparation des assurances de personnes et des assurances dommages. Grâce aux compétences d'une équipe chevronnée, la compagnie a bénéficié d'une connaissance approfondie du contexte social et économique algérien. C'est ainsi que Macir Vie a pu apporter une réelle valeur ajoutée sur le marché des assurances, en concevant des produits à la hauteur des attentes et besoins spécifiques de nos assurés, qu'ils soient professionnels ou particuliers.",
+    "SAVOIR_PLUS"=>"EN SAVOIR PLUS",
+    "POURQUOI_NOUS"=>"Pourquoi nous choisir ?",
+    "POURQUOI_NOUS_TEXT"=>"Macir Vie fonde ses actions sur trois valeurs cardinales : la Fiabilité, la Proximité et l'Innovation. C'est en incarnant ces valeurs que nos équipes vous offrent un service de qualité au quotidien.",
+    "SERVICES_PART"=>"Services aux Particuliers",
+    "SERVICES_PART_TEXT"=>"Macir Vie a développé des produits et des services sur-mesure, afin de répondre au mieux à vos besoins et ceux de vos proches en matière d'assurance de personnes.",
+    "SPACE"=>"ESPACE",
+    "PART"=>"PAERICULIERS",
+    "SERVICES_PRO"=>"Services aux Professionnels",
+    "SERVICES_PRO_TEXT"=>"Macir Vie a développé des produits et des services sur-mesure, afin de répondre au mieux aux besoins et attentes des entreprises et des professionnels en matière d'assurance de personnes.",
+    "Pro"=>"PROFESSIONNELS",
+    "ESPACE_AGENCE_VYG"=>"Espace Agences de voyages",
+    "ESPACE_AGENCE_VYG_TEXT"=>"Macir Vie met à disposition des agences de voyages conventionnées, un espace dédié pour la gestion des assurances de leurs clients. Cela leur permet de proposer des services et des séjours touristiques uniques, complets, qui répondent aux attentes d'une clientèle de plus en plus exigeante.",
+    "DROITS_RESERVE"=>"Macir Vie. Tous droits réservés.",
+    "POLITIQUE"=>"Politique de confidentialité",
+    "CONDITIONS"=>"Conditions Générales",
+    "SIMULATION"=>"Simulation",
+    "SOUSCRIPTION"=>"Souscription",
+]
+?>

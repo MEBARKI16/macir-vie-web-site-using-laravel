@@ -1,0 +1,369 @@
+@media (max-width: 450px) {
+    img#bginnovassurance.small {
+        visibility: hidden;
+        height: 0px;
+    }
+    #bginnovassurance.medium {
+        visibility: hidden;
+        height: 0px;
+    }
+    #bginnovassurance.big {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    header#innovassurance {
+        width: 100%;
+        margin-top: -10%;
+        margin-bottom: -20%;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 44% !important;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    header#innovassurance {
+        width: 100%;
+        margin-top: -7%;
+        margin-bottom: -15%;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 45% !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    header#innovassurance {
+        width: 100%;
+        margin-bottom: -6.3%;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 44% !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    header#innovassurance {
+        width: 100%;
+        margin-bottom: -2.6%;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 47% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    header#innovassurance {
+        width: 100%;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 52%;
+    }
+}
+
+/* @media (min-width: 1261px) {  
+header#innovassurance{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+/* background: linear-gradient(155deg, #01062c 50%, #001942 65%, #01e5ee 150%); */
+/* width: 100%;
+    margin-top: -5%;
+}
+} */
+
+/* Background */
+
+img#bginnovassurance {
+    width: 100%;
+    background-color: #002d70;
+}
+
+.box {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.box .text h1 h2 {
+    text-align: right;
+    background: -webkit-linear-gradient(
+        0deg,
+        #1e38ff 0%,
+        #c93bff 65%,
+        #00ffff 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.1rem;
+}
+
+/* Background Big screen */
+@media (min-width: 1290px) {
+    .box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 53%;
+    }
+
+    .box .text h1 h2 {
+        text-align: right;
+        background: -webkit-linear-gradient(
+            0deg,
+            #1e38ff 0%,
+            #c93bff 65%,
+            #00ffff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.7rem;
+    }
+}
+
+/* Background Small screen */
+@media (max-width: 894px) and (min-width: 663px) {
+    .box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 52%;
+    }
+
+    .box .text h1 h2 {
+        text-align: right;
+        background: -webkit-linear-gradient(
+            0deg,
+            #1e38ff 0%,
+            #c93bff 65%,
+            #00ffff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium Size Background */
+@media (max-width: 663px) and (min-width: 582px) {
+    .box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 53%;
+    }
+
+    .box .text h1 h2 {
+        text-align: right;
+        background: -webkit-linear-gradient(
+            0deg,
+            #1e38ff 0%,
+            #c93bff 65%,
+            #00ffff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.3rem;
+    }
+}
+
+/* Background VERY Small screen */
+@media (max-width: 582px) and (min-width: 435px) {
+    .box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 53%;
+    }
+
+    .box .text h1 h2 {
+        text-align: right;
+        background: -webkit-linear-gradient(
+            0deg,
+            #1e38ff 0%,
+            #c93bff 65%,
+            #00ffff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 0.9rem;
+    }
+}
+
+/* Background Extra Small screen */
+@media (max-width: 433px) {
+    .box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 38%;
+        right: 0;
+        top: 53%;
+    }
+
+    .box .text h1 h2 {
+        text-align: right;
+        background: -webkit-linear-gradient(
+            0deg,
+            #1e38ff 0%,
+            #c93bff 65%,
+            #00ffff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 0.6rem;
+    }
+}
+
+.company-lum {
+    display: none;
+}
+.newsletter-small-view {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .service-swap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-lum {
+        display: none;
+    }
+    .service-lum {
+        display: block;
+    }
+
+    .newsletter-small-view {
+        display: block;
+    }
+    .newsletter-big-view {
+        display: none;
+    }
+    .sub {
+        margin: auto;
+        align-content: center;
+        align-self: center;
+    }
+    .sow {
+        margin-inline-start: 110px;
+    }
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+    color: #8199a3;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.owl-prev {
+    left: 7px;
+}
+
+.owl-next {
+    right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus,
+button:active {
+    outline: none;
+}
+
+.owl-prev > span {
+    font-size: 5rem;
+    position: absolute;
+    left: 2rem;
+    color: white;
+}
+
+.owl-prev > span:hover {
+    color: rgb(131, 131, 131);
+}
+
+.owl-next > span {
+    font-size: 5rem;
+    position: absolute;
+    left: -4rem;
+    color: white;
+}
+
+.owl-next > span:hover {
+    color: rgb(131, 131, 131);
+}
+.bow {
+    margin-left: 200px;
+}
+img.souscription {
+    max-width: 120px !important;
+}

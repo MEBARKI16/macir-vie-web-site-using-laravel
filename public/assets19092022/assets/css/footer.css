@@ -1,0 +1,138 @@
+.footer-bg {
+    height: fit-content;
+    background: linear-gradient(
+        to right,
+        #00225f,
+        #002d71,
+        #013781,
+        #002b6f,
+        #01215c
+    );
+}
+
+.footer-bg #logo-footer {
+    display: block;
+}
+
+.footer-bg #logo-footer img {
+    max-height: 80px;
+    width: auto;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icons-container-footer {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#icons-container-footer a .icon-footer {
+    width: 24px;
+    height: 24px;
+}
+
+#submenu-footer {
+    text-align: center;
+}
+
+#submenu-footer a {
+    color: white;
+}
+
+#submenu-footer p {
+    padding-top: 1%;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.footer-bg .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media (min-width: 766px) {
+    footer#footer-Small {
+        visibility: hidden;
+        height: 0px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 766px) {
+    footer#footer-big {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .footer-bg #logo-footer img {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+footer#footer-Small div#icons-container-footer a {
+    margin-left: 1%;
+}
+
+#politique_conf {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+#politique_conf a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#powered_by {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+
+}
+#powered_by a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#powered_by p {
+    color: #fff;
+    font-size: 13px;
+   
+}
+
+
+.title-modal {
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.label-form {
+    color: #fff;
+    width: 120px;
+    text-align: left;
+}
+#body_presentation .form-check-label {
+    color: #fff;
+}
+#body_presentation input[type="text"],
+#body_presentation input[type="email"] {
+    width: 250px;
+}
+.navli i {
+    padding-left: 0px !important;
+    padding-right: 10px;
+}

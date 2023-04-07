@@ -1,0 +1,274 @@
+body::after {
+    height: 0px;
+}
+
+.landing-body {
+    background-image: url("../img/body.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    height: fit-content;
+    overflow: hidden;
+}
+
+/* Switch day and night */
+
+span.switch-night {
+    background-image: url(../img/Switch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+span.switch-day {
+    background-image: url(../img/Swirch-day.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+@media (max-width: 768px) {
+
+    #landingPageContent{
+        margin-top: 85px;
+       
+    }
+      
+}
+#landingPageContent{
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact-hi-europa{
+    text-align: center;
+}
+
+ul#testContact li{
+    display: inline;
+    padding: 7%;
+    text-align: center;
+
+}
+
+ul { 
+    
+    margin: auto;
+}
+
+#contactHiEuropa{
+    text-align: center;
+    
+    
+}
+
+#avoirAcces {
+padding-top: 0%;
+padding-bottom: 5%;}
+
+#avoirAcces .underline {
+    padding-top: 22%;
+    margin-left: 0px;
+}
+
+#avoirAcces h2 {
+    padding-top: 3%;
+    color: white;
+    font-size: 30px;
+}
+
+#avoirAcces h3 {
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#avoirAcces li {
+    width: 90%;
+    font-weight: 100;
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+       
+}
+
+@media (max-width: 768px) {
+    #avoirAcces li {
+        text-align: center;
+        align-items: flex-start;
+    }
+    #hi-europa-video{
+        width: 350px;
+        text-align: center;
+    
+    }
+
+}
+
+/*WEB AND PHONE START*/
+
+.button-18 {
+    align-items: center;
+    background-color: #5cc1cc;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-decoration: none;
+    margin-top: 40px;
+    
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #d60b52;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+
+
+@media (min-width: 768px) {
+    #Service-pro-icons-small {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        text-align: center;
+    }
+    
+}
+
+/*WEB AND PHONE END*/
+
+/* SEPARATOR START */
+#separator {
+    box-shadow: 1px 1px 5px #01062c;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        #000e21 -20%,
+        #003781 45%,
+        #00c2de 60%,
+        #003781 90%,
+        #000e21 110%
+    );
+}
+/* SEPARATOR END  */
+
+/* CONTACT START */
+
+#Service-part-decouvrir-plus a#decouvrir-plus {
+    border-width: 0.5px;
+    background-image: linear-gradient(to right, #0094dc 40%, #00f179 95%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    font: 0.7 rem "Montserrat", Arial, sans-serif; /*18*/
+    font-weight: 500;
+    height: 50px;
+    /* letter-spacing: 1px; */
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    z-index: 2;
+    animation-name: cercle_tourne;
+    animation-duration: 3s;
+    /* transition-duration: 1.25s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+#Service-part-decouvrir-plus {
+    margin-top: -1%;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover {
+    color: #fff;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus span {
+    align-items: center;
+    background: #002d70;
+    border-radius: 40px;
+    display: block;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: white;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus span#text {
+    background: -webkit-linear-gradient(0deg, #0094dc 40%, #00f179 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 8px;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover span#text {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover span {
+    background: transparent;
+}
+/* CONTACT END */
+
+
+
+
+

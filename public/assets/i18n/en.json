@@ -1,0 +1,88 @@
+{
+  "HOME": {
+    "TITLE": " Dashboard "
+  },
+  "DISPLAY": {
+    "RTL": " TRL "
+  },
+  "COMMUN": {
+    "ID": " ID ",
+    "LABEL": " Label ",
+    "BTN_NEW": " New ",
+    "BTN_VALIDATE": " Validate ",
+    "BTN_CLOSE": " Close ",
+    "BTN_CANCEL": " Cancel ",
+    "BTN_DELETE": " Delete ",
+    "BTN_MODIFIER": " Update ",
+    "TITLE_MODIFIER": " Update ",
+    "TOOLTIP_SEARCH": "Generic search.",
+    "TOOLTIP_SHOW": "Show details.",
+    "TOOLTIP_DELETE": "Delete line.",
+    "PLACEHOLDER_SEARCH": "Search...",
+    "UPLOAD_IMG_LABEL": "Choose image..."
+  },
+  "CONFIG": {
+    "TITLE_PAGE_KEY": " Application settings ",
+    "LABEL_KEY": " Project name ",
+    "TITLE_KEY": " Title ",
+    "DEFAULT_LANG_KEY": " Language ",
+    "FOOTER_KEY": " Footer texte ",
+    "VERSION_KEY": " Version ",
+    "COPYRIGHT_KEY": " Copyright ",
+    "DESCRIPTION_KEY": " Description ",
+    "MAX_USER_KEY": " User nember ",
+    "LOGO_KEY": " Logo ",
+    "LOGIN_IMG_KEY": " Login image "
+  },
+  "BTN": {
+    "SUBSCRIPTION": "Subscription"
+  },
+  "DASHBORD": {
+    "BTN_SUBSCRIPTION": "Subscription",
+    "BTN_MY_ESTIMATE": "Quotation\n",
+    "BTN_MY_CONTRACT": "Policy",
+    "BTN_MY_SINISTRE": "Sinistre",
+    "BTN_MY_REFUND": "Refunds",
+    "TEXT_MACIRVIE_STRONG": "BridgeAssur",
+    "TEXT_MACIRVIE": "     is an Algerian insurance company that provides you with a wide range of services and solutions to meet your different needs whether you are professional or private.\nSubscribe to your Travel Insurance contract online and pay with your CIB or EDAHABIA card."
+  },
+  "SIDE_BAR": {
+    "HOME": "Home",
+    "SIDE_BAR_MENU_TITLE": "Client Space",
+    "SIDE_BAR_CONSULTATION": "Consultation",
+    "SIDE_MY_ESTIMATE": "Quotation",
+    "SIDE_MY_CONTRACT": "Policy",
+    "SIDE_MY_SINISTRE": "Sinistre",
+    "SIDE_MY_REFUND": "Refunds",
+    "SIDE_SUBSCRIPTION": "Subscription",
+    "SIDE_SUBSCRIPTION2": "Subscription2",
+    "SIDE_CONTACT": "Contact",
+    "SIDE_ABOUT": "About",
+    "SIDE_CONTACT_US": "contact us",
+    "SIDE_DECLARATION": "DECLARATION OF DISASTER"
+  },
+  "SHOW_ESTIMATE": {
+    "MSG_REQ_CARDE_TYPE": "Please select the type of payment card"
+  },
+  "APP-PAYMENT": {
+    "BTN_DOWNLOAD_CONTRACT": "Download Contract",
+    "BTN_AVN_CONTRACT": "Endorsement ",
+    "L_REFERENCE_CONTRACT": "Contract Reference",
+    "LTAB_DETAIL_CONTRACT": "Contract details",
+    "L_LAST_NAME": " Last name",
+    "L_FIRST_NAME": "First name",
+    "L_DDN": "Birth Day",
+    "L_EMAIL": " E-mail",
+    "L_TEL": "Phone",
+    "L_ADRESSE": "Adresse",
+    "L_START_DATE": "Start Date",
+    "L_END_DATE": "End Date",
+    "L_ADRESSE": "Address",
+    "LTAB_GARANTIE": "Guarantee",
+    "L_GARANTIE": "Guarantee",
+    "L_LIMITE": "Limit",
+    "L_PRIME": "Premium",
+    "L_CAPITAL": "Capital",
+    "L_TOTAl": "Total"
+  }
+}

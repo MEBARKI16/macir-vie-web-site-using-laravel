@@ -1,0 +1,19 @@
+<?php
+return [
+    'apropos'=>'a-propos',
+    'particuliers'=>'particuliers',
+    'assurance-voyage-part'=>'particuliers/assurance-voyage',
+    'assurance-voyage-pro'=>'professionnels/assurance-voyage',
+    'garantie-accidents-vie'=>'particuliers/garantie-accidents-vie',
+    'assurance-hadj-omra'=>'particuliers/assurance-hadj-omra',
+    'assurance-credit-emprunteur-part'=>'particuliers/assurance-credit-emprunteur',
+    'assurance-credit-emprunteur-pro'=>'professionnels/assurance-credit-emprunteur',
+    'professionnels'=>'professionnels',
+    'assurance-groupe'=>'professionnels/assurance-groupe',
+    'agences-voyages'=>'agences-voyages',
+    'plateformes-esante-eadherent'=>'professionnels/plateformes-esante-eadherent',
+    'contact'=>'contact',
+    'newsletter'=>'newsletter',
+    ''=>'',
+]
+?>

@@ -1,0 +1,19 @@
+<?php
+return [
+    'apropos'=>'من-نحن',
+    'particuliers'=>'خواص',
+    'assurance-voyage-part'=>'خواص/تامين-سفر',
+    'assurance-voyage-pro'=>'مهنيين/تامين-سفر',
+    'garantie-accidents-vie'=>'خواص/تامين-حوادث-الحياة',
+    'assurance-hadj-omra'=>'خواص/تامين-حج-عمرة',
+    'assurance-credit-emprunteur-part'=>'خواص/تأمين-المقترض',
+    'assurance-credit-emprunteur-pro'=>'مهنيين/تأمين-المقترض',
+    'professionnels'=>'مهنيين',
+    'assurance-groupe'=>'مهنيين/تامين-جماعي',
+    'agences-voyages'=>'وكالات-السفر',
+    'plateformes-esante-eadherent'=>'مهنيين/منصتي-الصحة-العضوية-الالكترونيتين',
+    'contact'=>'اتصلوا-بنا',
+    'newsletter'=>'newsletter',
+    ''=>'',
+]
+?>

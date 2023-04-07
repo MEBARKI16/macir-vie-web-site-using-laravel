@@ -1,0 +1,287 @@
+// 
+// general.scss
+//
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+tr p {
+  margin-bottom: 0.1rem;
+  margin-top: 0.4rem;
+}
+
+body.body-background-color {
+  background-color: $color-form-macir;
+  //
+
+}
+
+#content-page-id {
+  /*  background: url("../images/bg-pattern.png") right center no-repeat !*,linear-gradient(60deg, rgba(0,55,129,1) 8%, rgba(0,33,92,1) 26%)*!;
+    background-size: cover;*/
+}
+
+
+/*
+.content-img {
+  background-image: url("src/assets/images/bg-pattern-2.png") !important;
+  background-size: 100% 100%;
+
+}
+*/
+
+.hr-line-blue {
+  background-image: url("src/assets/images/hr/Line-blue.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.hr-line-green {
+  background-image: url("src/assets/images/hr/Line-green.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.hr-line-orange {
+  background-image: url("src/assets/images/hr/Line-orange.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+
+
+}
+
+.hr-line-pink {
+  background-image: url("src/assets/images/hr/Line-pink.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.hr-line-red {
+  background-image: url("src/assets/images/hr/Line-red.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.hr-line-white {
+  background-image: url("src/assets/images/hr/Line-white.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.hr-line-yellow {
+  background-image: url("src/assets/images/hr/Line-yellow.png") !important;
+  background: no-repeat;
+  background-position: center;
+  height: 8px;
+}
+
+.form-control {
+  color: white !important;
+}
+
+
+//ui-dropdown===========================================
+body .ui-dropdown {
+  background: #00225e !important;
+  border: 0.1px solid !important;
+  border-image-slice: 1 !important;
+  border-width: 1px !important;
+  border-image-source: $border-image-source-transparent !important;
+
+
+}
+body .ui-dropdown .ui-dropdown-label {
+   white-space: normal !important;
+}
+
+body .ui-inputtext {
+  font-size: 14px;
+  color: #ffffff;
+  background: $color-form-macir;
+  padding: 0.429em;
+  border: 1px solid #a6a6a6;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.cdk-virtual-scroll-viewport {
+  background-color: #00225e;
+  border: solid 1px #00487b;
+}
+
+body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item, body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item-group {
+  border: 0 none;
+  color: white;
+  background-color: transparent;
+}
+
+body .ui-dropdown-panel .ui-dropdown-filter-container {
+  border-bottom: 1px solid #eaeaea;
+  color: $white;
+  background-color: $color-form-macir;
+  margin: 0;
+}
+
+.ui-dropdown-item {
+  .ng-star-inserted {
+    border-bottom: #0e6251 solid .01px;
+    border-bottom-color: currentcolor;
+    padding-bottom: inherit;
+  }
+}
+
+body .ui-dropdown .ui-dropdown-trigger {
+  background-color: $color-form-macir;
+
+}
+
+body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item, body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item-group {
+  border: 0 none;
+  color: $white !important;
+  background-color: $color-form-macir;
+}
+
+
+/*
+¤¤¤¤¤¤¤ input ¤¤¤¤¤¤¤¤*/
+
+
+select, input {
+  display: inline-block;
+  width: 90%;
+  background-color: #00225e !important;
+  border-image-slice: 1 !important;
+  border-width: 1px !important;
+  border-image-source: $border-image-source-transparent !important;
+  border-radius: .1rem;
+  min-height: 35px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.card-macir {
+  background-color: #00225e87 !important;
+  border: 0.2px solid rgb(0, 225, 241, 0.2) !important;
+  border-radius: .1rem !important;
+  min-height: calc(100% - 80px);
+  padding: 10px;
+  box-shadow: 0px 0px 5px 1px rgb(15 141 135 / 21%);
+}
+
+.btn-color {
+  background-image: linear-gradient(rgba(0, 241, 121, 0), rgba(0, 241, 121, 0)), linear-gradient(101deg, #0094dc 40%, #00f179 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+}
+
+.text-macir {
+  background: -webkit-linear-gradient(0deg, #1e38ff 0%, #c93bff 65%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dropdown, .dropleft, .dropright, .dropup {
+  position: relative;
+}
+
+select {
+  word-wrap: normal;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+  background-color: #00225e;
+  margin: 0;
+  font-family: "sans-serif";
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+/* ==========        datePicker   =================*/
+
+p {
+  color: white;
+}
+
+/*
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ Dialog ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+body .ui-dialog .ui-dialog-titlebar {
+  background-color: $color-form-macir;
+  color: $white;
+  border: 1px solid #005784;
+  border-bottom: none;
+}
+
+body .ui-dialog .ui-dialog-content {
+  background-color: $color-form-macir;
+  color: $white;
+  padding: 0.571em 1em;
+  border: 1px solid #005784;
+  height: 100%;
+}
+
+body .ui-dialog .ui-dialog-footer {
+  border: 1px solid #005784;
+  background-color: $color-form-macir;
+  color: $white;
+  padding: 0.571em 1em;
+  margin: 0;
+  text-align: right;
+  position: relative;
+  border-top: 0 none;
+}
+
+.ui-dialog {
+  padding: 0;
+  box-shadow: 0 0 6px 0 $color-form-macir;
+  border: 0.1px solid !important;
+  border-image-slice: 1 !important;
+  border-width: 1px !important;
+  border-image-source: $border-image-source-transparent !important;
+}
+
+@media (max-width: 767.95px) {
+  .mobile-dashboard {
+    margin-left: 30px;
+  }
+  .mobile-padding {
+    padding-top: 30px !important;
+  }
+  .justify-content-center-btn-select{
+    justify-content: center !important;
+  }
+
+}
+
+.show-consult p {
+  color: $p-font-color;
+}
+
+// color chekbox
+
+.ui-chkbox-label {
+  color: $white;
+}
+.container {
+ }
+

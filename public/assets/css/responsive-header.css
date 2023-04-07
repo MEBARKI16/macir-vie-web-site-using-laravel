@@ -1,0 +1,146 @@
+/* Phone */
+@media screen and (max-width: 450px) {
+    body {
+        padding-top: 0px !important;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    #navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+    .navbar-toggler-left {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    #Bcg {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    #newsletter-mobile {
+        display: block;
+    }
+    #presentation-mobile {
+        display: block;
+    }
+    #presentation-mobile > a > i {
+        padding-left: 0 !important;
+    }
+    #newsletter-mobile > a > i {
+        padding-left: 0 !important;
+    }
+
+    .newsletter-desk {
+        display: none !important;
+    }
+
+    #apropos-mobile {
+        display: block;
+    }
+    #apropos-desk {
+        display: none;
+    }
+
+    #Bcg > .container {
+        padding-left: 0 !important;
+    }
+
+    #bgnavitem > a > i {
+        padding-left: 0 !important;
+    }
+    .newsletter-small-view {
+        display: block;
+    }
+    .newsletter-big-view {
+        display: none;
+    }
+
+    .all-content-apart-navbar {
+        margin-top: 40px;
+    }
+    #livre-blanc-tome1 {
+        min-width: 300px !important;
+        height: 300px !important;
+    }
+    #livre-blanc-tome1-landing {
+        min-width: 300px !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    body {
+        padding-top: 85px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        transition: top 0.2s ease-in-out;
+    }
+
+    .nav-up {
+        top: -85px;
+    }
+
+    #newsletter-mobile {
+        display: none;
+    }
+    #presentation-mobile {
+        display: none;
+    }
+    .newsletter-desk {
+        display: block;
+    }
+
+    #apropos-mobile {
+        display: none;
+    }
+    #apropos-desk {
+        display: block;
+    }
+
+    .newsletter-small-view {
+        display: none;
+    }
+    .newsletter-big-view {
+        display: block;
+    }
+    #livre-blanc-tome1 {
+        min-width: 420px !important;
+        min-height: 300px !important;
+    }
+    #livre-blanc-tome1-landing {
+        min-width: 420px !important;
+        min-height: 300px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #livre-blanc-tome1 {
+        min-width: 420px !important;
+        min-height: 300px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #livre-blanc-tome1-landing {
+        min-width: 800px !important;
+        min-height: 450px !important;
+    }
+}

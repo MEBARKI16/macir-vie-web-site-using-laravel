@@ -1,0 +1,998 @@
+body::after {
+    height: 0px;
+}
+
+.landing-body {
+    background-image: url("../img/body.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    height: fit-content;
+    overflow: hidden;
+}
+
+
+/* Switch day and night */
+
+span.switch-night{
+    background-image: url(../img/Switch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+span.switch-day{
+    background-image: url(../img/Swirch-day.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+/* Souscriptions Big Screen */
+@media (min-width : 768px) {
+#souscription-buttons-small {
+    visibility: hidden;
+    height: 0px;
+}}
+
+#souscription-buttons{
+    padding-top: 1%;
+    align-items: center;
+}
+
+div#souscription-buttons-content {
+align-items: center;
+text-align: center;
+
+}
+
+div#souscription-buttons-content p{
+    padding-top: 7%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 10;
+    font-size: 12px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+    font-size: 14px;
+    }
+
+    #souscription-buttons-content img.underline {
+        padding-top: 20px;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #souscription-buttons-content img.souscription{
+        width: 35%;
+        height: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* #souscription-buttons-content img.souscription:hover{
+        -webkit-animation: rotation 0.3s infinite linear;
+        animation-direction: alternate;
+    } */
+
+    /* Rotation définition */
+    /* @-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(60deg);
+		}
+} */
+
+    /* Souscriptions Small Screen */
+
+    @media (max-width : 768px) {
+        #souscription-buttons {
+            visibility: hidden;
+            height: 0px;
+        }
+
+        #souscription-buttons-small {
+            visibility: visible;
+            padding-top: 15% !important;
+
+        }
+    }
+
+        /* Souscriptions END */
+
+
+    /* Premiere companie */
+    #vision {
+        padding-top: 0%;
+    }
+
+    #vision .underline{
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #vision h2{
+        padding-top: 3%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #vision p{
+        font-weight: 100;
+        text-align: justify;
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    #vision a#ensavoirplus{
+        font-size: small;
+        font-weight: 100;
+        color: white;
+        font-family: sans-serif;
+        float: right;
+    }
+
+
+
+    /* Vision mission END */
+
+
+    /* Valeurs */
+    @media (min-width : 768px) {
+    #partenaires-small{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+    }
+    #partenaires {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    /* #partenaires .underline{
+        padding-top: 22%;
+        margin-left: 0px;
+    } */
+
+    #partenaires h2{
+        padding-top: 3%;
+        color: white;
+        font-size: 30px;
+    }
+
+    #partenaires p{
+        font-weight: 100;
+        text-align: justify;
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #partenaires a#ensavoirplus{
+        font-size: small;
+        font-weight: 100;
+        color: white;
+        font-family: sans-serif;
+        float: right;
+    }
+
+    #partenaires a#ensavoirplus:hover{
+        text-decoration: none;
+
+    }
+
+    #partenaires img.valeurs{
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    /* .col-8#text-prq-choisir{
+        padding-left: 17%;
+        margin-right: -15%;    } */
+
+
+
+        @media (max-width : 768px) {
+            #partenaires{
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+
+        #partenaires-small {
+            padding-top: 0%;
+        }
+
+        #partenaires-small .underline{
+            padding-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #partenaires-small h2{
+            padding-top: 3%;
+            color: white;
+            font-size: 30px;
+        }
+
+        #partenaires-small p{
+            font-weight: 100;
+            text-align: justify;
+            padding-top: 3%;
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+            }
+
+        #partenaires-small a#ensavoirplus{
+            font-size: small;
+            font-weight: 100;
+            color: white;
+            font-family: sans-serif;
+            float: right;
+        }
+
+        #partenaires-small a#ensavoirplus:hover{
+            text-decoration: none;
+
+        }
+
+        #partenaires-small img.valeurs{
+            padding-top: 10%;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+        }
+
+        /* #text-prq-choisir{
+            padding-left: 5%;
+            margin-right: 5%;    } */
+
+        }
+
+        /* Valeurs END */
+
+
+        /* Lumière */
+        #lumiere {
+            width: 100%;
+            padding-top: 0%;
+        }
+
+        .lumiere{
+            width: 100%;
+            margin-left: 0%;
+            margin-right: auto;
+        }
+
+        @media (max-width : 768px) {
+            .lumiere{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        }
+
+        /* Lumière END */
+
+
+        /* Qui sommes nous */
+        #quismnous {
+            padding-top: 3%;
+        }
+
+        #quismnous .underline{
+            padding-top: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        #quismnous h1{
+            padding-top: 0%;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #quismnous p{
+            font-weight: 100;
+            text-align: center;
+            padding-top: 0%;
+            color: white;
+            font-family: sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: 14px;
+        }
+
+        /* Nos valeurs */
+        #nosvaleurs {
+            padding-top: 3%;
+        }
+
+        #nosvaleurs .underline{
+            padding-top: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        #nosvaleurs h2{
+            padding-top: 0%;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #nosvaleurs p{
+            font-weight: 100;
+            text-align: center;
+            padding-top: 0%;
+            color: white;
+            font-family: sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: 14px;
+
+        }
+
+
+
+
+
+        #Service-part-icons #type-assu {
+        padding-top: 5%;
+
+        }
+
+        #Service-part-icons #type-assu img{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+
+        @media (min-width : 768px) {
+            #Service-part-icons-small {
+                visibility: hidden;
+                height: 0px;
+                width: 0px;
+            }
+        }
+
+        @media (max-width : 768px) {
+            #Service-part-icons{
+                visibility: hidden;
+                height: 0px;
+                width: 0px;
+            }
+
+            #Service-part-icons-small #type-assu {
+                padding-top: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                }
+
+            #Service-part-icons-small #type-assu img{
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+        }
+
+        #Service-part-decouvrir-plus a#decouvrir-plus{
+            margin-top: 4%;
+            border-width: 0.5px;
+            background-image: linear-gradient(to right, #0094dc 40%, #00f179 95%);
+            border-radius: 40px;
+            box-sizing: border-box;
+            color: #00a84f;
+            display: block;
+            font: .7 rem 'Montserrat', Arial, sans-serif; /*18*/
+            font-weight: 500;
+            height: 50px;
+            /* letter-spacing: 1px; */
+            margin: 0 auto;
+            padding: 4px;
+            position: relative;
+          text-decoration: none;
+            text-transform: uppercase;
+            width: 200px;
+            z-index: 2;
+         }
+
+        #Service-part-decouvrir-plus{
+            margin-top: 4%;
+        }
+
+        #Service-part-decouvrir-plus a#decouvrir-plus:hover {
+            color: #fff;
+        }
+
+
+        #Service-part-decouvrir-plus a#decouvrir-plus span {
+            align-items: center;
+            background: #002d70;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            transition: background .5s ease;
+            width: 100%;
+            color: white;
+
+        }
+
+        #Service-part-decouvrir-plus a#decouvrir-plus span#text {
+            background: -webkit-linear-gradient(0deg,#0094dc 40%, #00f179 90%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #Service-part-decouvrir-plus a#decouvrir-plus:hover span#text {
+            background: white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #Service-part-decouvrir-plus a#decouvrir-plus:hover span{
+            background: transparent;
+        }
+        /* Services-Part END */
+
+
+        /* Services-Pro */
+                    #Service-pro {
+                        padding-top: 0%;
+                    }
+
+                    #Service-pro .underline{
+                        padding-top: 0%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                    }
+
+                    #Service-pro h2{
+                        padding-top: 0%;
+                        color: white;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+
+                    #Service-pro p{
+                        font-weight: 100;
+                        text-align: center;
+                        padding-top: 0%;
+                        color: white;
+                        font-family: sans-serif;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                        font-size: 14px;
+                    }
+
+                    #Service-pro-icons #type-assu {
+                    padding-top: 5%;
+
+                    }
+
+                    #Service-pro-icons #type-assu img{
+                        width: 50%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                    }
+
+
+                    @media (min-width : 768px) {
+                        #Service-pro-icons-small {
+                            visibility: hidden;
+                            height: 0px;
+                            width: 0px;
+                        }
+                    }
+
+                    @media (max-width : 768px) {
+                        #Service-pro-icons{
+                            visibility: hidden;
+                            height: 0px;
+                            width: 0px;
+                        }
+
+                        #Service-pro-icons-small #type-assu {
+                            padding-top: 5%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: block;
+                            }
+
+                        #Service-pro-icons-small #type-assu img{
+                                width: 50%;
+                                margin-left: auto;
+                                margin-right: auto;
+                                display: block;
+                            }
+                    }
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus{
+                        margin-top: 4%;
+                        border-width: 0.5px;
+                        background-image: linear-gradient(to right, #0094dc 40%, #00f179 95%);
+                        border-radius: 40px;
+                        box-sizing: border-box;
+                        color: #00a84f;
+                        display: block;
+                        font: .7 rem 'Montserrat', Arial, sans-serif; /*18*/
+                        font-weight: 500;
+                        height: 50px;
+                        /* letter-spacing: 1px; */
+                        margin: 0 auto;
+                        padding: 4px;
+                        position: relative;
+                    text-decoration: none;
+                        text-transform: uppercase;
+                        width: 200px;
+                        z-index: 2;
+                    }
+
+                    #Service-pro-decouvrir-plus{
+                        margin-top: 4%;
+                    }
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus:hover {
+                        color: #fff;
+                    }
+
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus span {
+                        align-items: center;
+                        background: #002d70;
+                        border-radius: 40px;
+                        display: flex;
+                        justify-content: center;
+                        height: 100%;
+                        transition: background .5s ease;
+                        width: 100%;
+                        color: white;
+
+                    }
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus span#text {
+                        background: -webkit-linear-gradient(0deg,#0094dc 40%, #00f179 90%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus:hover span#text {
+                        background: white;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    #Service-pro-decouvrir-plus a#decouvrir-plus:hover span{
+                        background: transparent;
+                    }
+
+        /* Services-Pro END */
+
+
+            /* espace-agence */
+    #espace-agence {
+        padding-top: 4%;
+        padding-bottom: 1.5%;
+    }
+
+    #espace-agence .underline{
+        padding-top: 20%;
+        margin-left: 0px;
+    }
+
+    #espace-agence h2{
+        padding-top: 3%;
+        color: white;
+        font-size: 30px;
+    }
+
+    #espace-agence p{
+        font-weight: 100;
+        text-align: justify;
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #espace-agence a#ensavoirplus{
+        font-size: small;
+        font-weight: 100;
+        color: white;
+        font-family: sans-serif;
+        float: right;
+    }
+
+    #espace-agence a#ensavoirplus:hover{
+        text-decoration: none;
+
+    }
+
+    #espace-agence img.valise{
+        padding-top: 10%;
+        width: 80%;
+        margin-left: 30%;
+        height: auto;
+    }
+
+    @media (max-width : 768px) {
+        #espace-agence {
+            padding-top: 0%;
+        }
+        #espace-agence img.valise{
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+
+        .col-4#valise {
+            width: 0px;
+            height: 0px;
+        }
+
+        .col-8#text-espace-agence{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        #espace-agence .underline{
+            padding-top: 0%;
+            margin-left: 0px;
+        }
+
+    }
+
+    /* espace-agence END */
+
+    /* Separator */
+    #separator {
+        box-shadow: 1px 1px 5px #01062c;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,#000e21 -20%, #003781 45%, #00c2de 60%, #003781 90%, #000e21 110%);
+
+    }
+    /* END Separator */
+
+
+        /* Caroussel */
+
+        .customer-logos {
+            background-color: transparent;
+            margin-bottom: 4%;
+            margin-top: 4%;
+          }
+
+          /* Slider */
+          .slick-slide {
+              margin: 0px 20px;
+          }
+
+          .slick-slide img {
+              max-width: 100%;
+          }
+
+          .slick-slider
+          {
+              position: relative;
+              display: block;
+              box-sizing: border-box;
+
+              -webkit-user-select: none;
+                 -moz-user-select: none;
+                  -ms-user-select: none;
+                      user-select: none;
+
+              -webkit-touch-callout: none;
+              -khtml-user-select: none;
+              -ms-touch-action: pan-y;
+                  touch-action: pan-y;
+              -webkit-tap-highlight-color: transparent;
+          }
+
+          .slick-list
+          {
+              position: relative;
+              display: block;
+              overflow: hidden;
+
+              margin: 0;
+              padding: 0;
+          }
+          .slick-list:focus
+          {
+              outline: none;
+          }
+          .slick-list.dragging
+          {
+              cursor: pointer;
+              cursor: hand;
+          }
+
+          .slick-slider .slick-track,
+          .slick-slider .slick-list
+          {
+              -webkit-transform: translate3d(0, 0, 0);
+                 -moz-transform: translate3d(0, 0, 0);
+                  -ms-transform: translate3d(0, 0, 0);
+                   -o-transform: translate3d(0, 0, 0);
+                      transform: translate3d(0, 0, 0);
+          }
+
+          .slick-track
+          {
+              position: relative;
+              top: 0;
+              left: 0;
+
+              display: block;
+          }
+          .slick-track:before,
+          .slick-track:after
+          {
+              display: table;
+
+              content: '';
+          }
+          .slick-track:after
+          {
+              clear: both;
+          }
+          .slick-loading .slick-track
+          {
+              visibility: hidden;
+          }
+
+          .slick-slide
+          {
+              display: none;
+              float: left;
+
+              height: 100%;
+              min-height: 1px;
+          }
+          [dir='rtl'] .slick-slide
+          {
+              float: right;
+          }
+          .slick-slide img
+          {
+              display: block;
+          }
+          .slick-slide.slick-loading img
+          {
+              display: none;
+          }
+          .slick-slide.dragging img
+          {
+              pointer-events: none;
+          }
+          .slick-initialized .slick-slide
+          {
+              display: block;
+          }
+          .slick-loading .slick-slide
+          {
+              visibility: hidden;
+          }
+          .slick-vertical .slick-slide
+          {
+              display: block;
+
+              height: auto;
+
+              border: 1px solid transparent;
+          }
+          .slick-arrow.slick-hidden {
+              display: none;
+          }
+        /* End Caroussel */
+
+
+
+    /* Changements pour la version mobile */
+
+@media (max-width:485px) {
+
+    svg#manrun {
+        visibility: hidden;
+    }
+
+       #quismnous h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #quismnous .underline {
+        margin-top:15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #quismnous p {
+        font-size: small;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+
+    #nosvaleurs h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #nosvaleurs .underline {
+        margin-top:15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #nosvaleurs p {
+        font-size: small;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #vision h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #vision .underline {
+        /* margin-top:15%;   */
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #vision p {
+        font-size: small;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #partenaires-small h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #partenaires-small .underline {
+        margin-top:15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #partenaires-small p {
+        font-size: small;
+        font-family: sans-serif;
+        font-size: 14px;
+
+    }
+
+    #partenaires-small #valeurs {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .landing-body {
+        background-image: none;
+        background-color: #002d70;
+        }
+
+}
+ /* Changements pour la version mobile Fin */
+
+
+ @media (min-width: 766px) {
+    .hide-where-big{
+       visibility: hidden;
+   }
+    }
+
+    @media (min-width: 766px) {
+    div#text-vision {
+        /* Col-6 */
+        flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+    }
+
+
+@media (max-width: 766px) {
+    div#text-vision {
+        /* Col-12 */
+        flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    }
+}
+
+.macir-partners {
+    background-image: url("../img/macir.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.macir-partners img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+}
+
+
+@media (max-width : 768px) {
+    .section {
+        padding-top: 0% !important;
+    }
+
+    #quismnous {
+        padding-top: 15% !important;
+    }
+
+    .section > br:first-of-type {
+        display: none;
+    }
+}

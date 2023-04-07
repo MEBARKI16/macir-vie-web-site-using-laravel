@@ -1,0 +1,57 @@
+// 
+// authentication.scss
+//
+
+.authentication-bg.enlarged {
+  min-height: 100px;
+}
+
+/*.bg-pattern {
+  !*  background-image: url("../images/bg-pattern.png");*!
+  background-color: #00337a;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+.bg-pattern-bold {
+  background-size: cover;
+  background-color: #00337a;
+  color: #fff !important;
+  margin-top: 15%;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.bg-pattern-bold {
+  background-size: cover;
+  background-color: #00337a;
+  color: #fff !important;
+  margin-top: 15%;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.bg-pattern-gris {
+  background-size: cover;
+  background-color: rgba(142, 142, 142, 0.42);
+  color: #fff !important;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+// authentication pages background
+body.authentication-bg {
+  background-color: $gray-200;
+  background-size: cover;
+  background-position: center;
+}
+
+body.authentication-bg-pattern {
+  background-color: #00337a;
+}
+
+// Logout page
+.logout-icon {
+  width: 140px;
+}
+

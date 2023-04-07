@@ -1,0 +1,87 @@
+{
+  "HOME": {
+    "TITLE": " Tableau de board "
+  },
+  "DISPLAY": {
+    "RTL": " TRL "
+  },
+  "COMMUN": {
+    "ID": " ID ",
+    "LABEL": " Libellé ",
+    "BTN_NEW": " Nouveau ",
+    "BTN_VALIDATE": " Valider ",
+    "BTN_CLOSE": " Fermer ",
+    "BTN_CANCEL": " Annuler ",
+    "BTN_DELETE": "Suprimer",
+    "BTN_MODIFIER": "Modifier",
+    "TITLE_MODIFIER": " Modifier ",
+    "TOOLTIP_SEARCH": "Recherche .",
+    "PLACEHOLDER_SEARCH": "Recherche...",
+    "UPLOAD_IMG_LABEL": "Choisir une image..."
+  },
+  "CONFIG": {
+    "TITLE_PAGE_KEY": " Application config ",
+    "LABEL_KEY": " Nom du projet ",
+    "TITLE_KEY": " Titre ",
+    "DEFAULT_LANG_KEY": " Langue ",
+    "FOOTER_KEY": " Footer texte ",
+    "VERSION_KEY": " Version ",
+    "COPYRIGHT_KEY": " Copyright ",
+    "DESCRIPTION_KEY": " Description ",
+    "MAX_USER_KEY": " Nombre d'utilisateur ",
+    "LOGO_KEY": " Logo ",
+    "LOGIN_IMG_KEY": " Login image "
+  },
+  "BTN": {
+    "SUBSCRIPTION": "Souscreption"
+  },
+  "DASHBORD": {
+    "BTN_SUBSCRIPTION": "Souscription",
+    "BTN_MY_ESTIMATE": "Mes Devis",
+    "BTN_MY_CONTRACT": "Mes Contrats",
+    "BTN_MY_SINISTRE": "Mes Sinistres",
+    "BTN_MY_REFUND": "Mes Remboursements",
+    "TEXT_MACIRVIE_STRONG": "BridgeAssur",
+    "TEXT_MACIRVIE": "est une compagnie d’assurance algérienne qui met à votre disposition une large gamme de services et de solutions afin de répondre à vos différents besoins que vous soyez professionnels ou particuliers.\nSouscrivez à votre contrat d’Assurance Voyage en ligne et payez avec votre carte CIB ou EDAHABIA."
+  },
+  "SIDE_BAR": {
+    "HOME": "Accueil",
+    "SIDE_BAR_MENU_TITLE": "Espace Clinet",
+    "SIDE_BAR_CONSULTATION": "Consultation",
+    "SIDE_MY_ESTIMATE": "Mes Devis",
+    "SIDE_MY_CONTRACT": "Mes Contrats",
+    "SIDE_MY_SINISTRE": "Mes Sinistres",
+    "SIDE_MY_REFUND": "Mes   Remboursements",
+    "SIDE_SUBSCRIPTION": "Souscription",
+    "SIDE_SUBSCRIPTION2": "Souscription2",
+    "SIDE_CONTACT": "Contact",
+    "SIDE_ABOUT": "A propos",
+    "SIDE_CONTACT_US": "Contactez Nous",
+    "SIDE_DECLARATION": "Déclaration de sinistre"
+
+  },
+  "SHOW_ESTIMATE": {
+    "MSG_REQ_CARDE_TYPE": "Veuillez sélectionner le type de la carte de paiement"
+  },
+  "APP-PAYMENT": {
+    "BTN_DOWNLOAD_CONTRACT": "Télécharger Contrat",
+    "BTN_AVN_CONTRACT": "Avenant",
+    "L_REFERENCE_CONTRACT": "Référence Contrat",
+    "LTAB_DETAIL_CONTRACT": "Détail Contrat",
+    "L_LAST_NAME": " Nom",
+    "L_FIRST_NAME": " Prénom",
+    "L_DDN": " Date de Naissance",
+    "L_EMAIL": " E-mail",
+    "L_TEL": "Téléphone",
+    "L_ADRESSE": "Adresse",
+    "L_START_DATE": "Date Début",
+    "L_END_DATE": "Date Fin",
+    "L_ADRESSE": "Adresse",
+    "LTAB_GARANTIE": "Garantie",
+    "L_GARANTIE": "Garantie",
+    "L_LIMITE": "Limite",
+    "L_PRIME": "Prime",
+    "L_CAPITAL": "Capital",
+    "L_TOTAl": "Total"
+  }
+}

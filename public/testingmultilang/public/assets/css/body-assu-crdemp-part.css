@@ -1,0 +1,703 @@
+body::after {
+    height: 0px;
+}
+
+.landing-body {
+    background-image: url("../img/body.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    height: fit-content;
+    overflow: hidden;
+}
+
+/* Switch day and night */
+
+span.switch-night {
+    background-image: url(../img/Switch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+span.switch-day {
+    background-image: url(../img/Swirch-day.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 3rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* Souscriptions Big Screen */
+@media (min-width: 768px) {
+    #raisons-buttons-small {
+        visibility: hidden;
+        height: 0px;
+    }
+}
+
+#raisons-buttons {
+    padding-top: 1%;
+    align-items: center;
+}
+
+div#raisons-buttons-content {
+    padding-top: 4%;
+    padding-bottom: 0%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+div#raisons-buttons-content p {
+    padding-top: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 10;
+    font-size: 12px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+    font-size: 14px;
+}
+
+div#raisons-buttons-content h5 {
+    padding-top: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 18;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+}
+
+#raisons-buttons-content img.underline {
+    padding-top: 20px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#raisons-buttons-content img.raisons {
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Souscriptions Small Screen */
+
+@media (max-width: 768px) {
+    #raisons-buttons {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    #raisons-buttons-small {
+        visibility: visible;
+        /* padding-top: 15% !important; */
+    }
+}
+
+/* Souscriptions END */
+
+/* Valeurs */
+@media (min-width: 768px) {
+    #partenaires-small {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+}
+#partenaires {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#partenaires .underline {
+    padding-top: 20%;
+    margin-left: 0px;
+}
+
+#partenaires h2 {
+    padding-top: 3%;
+    color: white;
+    font-size: 30px;
+}
+
+#partenaires h3 {
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#partenaires li {
+    font-weight: 100;
+    text-align: justify;
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+}
+
+#partenaires p {
+    font-weight: 100;
+    text-align: justify;
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#partenaires a#ensavoirplus {
+    font-size: small;
+    font-weight: 100;
+    color: white;
+    font-family: sans-serif;
+    float: right;
+}
+
+#partenaires a#ensavoirplus:hover {
+    text-decoration: none;
+}
+
+#partenaires img.valeurs {
+    padding-top: 0%;
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+}
+
+.col-8#text-prq-choisir {
+    padding-left: 17%;
+    margin-right: -15%;
+}
+
+@media (max-width: 768px) {
+    #partenaires {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    #partenaires-small {
+        padding-top: 0%;
+    }
+
+    #partenaires-small .underline {
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #partenaires-small h2 {
+        padding-top: 3%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #partenaires-small h3 {
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #partenaires-small li {
+        font-weight: 100;
+        text-align: justify;
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    #partenaires-small p {
+        font-weight: 100;
+        text-align: justify;
+        padding-top: 3%;
+        color: white;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #partenaires-small a#ensavoirplus {
+        font-size: small;
+        font-weight: 100;
+        color: white;
+        font-family: sans-serif;
+        float: right;
+    }
+
+    #partenaires-small a#ensavoirplus:hover {
+        text-decoration: none;
+    }
+
+    #partenaires-small img.valeurs {
+        padding-top: 10%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    #text-prq-choisir {
+        padding-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Valeurs END */
+
+/* Qui sommes nous */
+#quismnous {
+    padding-top: 3%;
+}
+
+#quismnous .underline {
+    padding-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#quismnous img.logo-tbb {
+    padding-top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+}
+
+#quismnous h2 {
+    padding-top: 0%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#quismnous p {
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0%;
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 14px;
+}
+
+/* Nos valeurs */
+#nosvaleurs {
+    padding-top: 1%;
+}
+
+#nosvaleurs .underline {
+    padding-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#nosvaleurs h2 {
+    padding-top: 0%;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+#nosvaleurs p {
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0%;
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 14px;
+}
+
+#Service-part-icons #type-assu {
+    padding-top: 5%;
+}
+
+#Service-part-icons #type-assu img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #Service-part-icons-small {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Service-part-icons {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    #quismnous {
+        padding-top: 13%;
+    }
+
+    #Service-part-icons-small #type-assu {
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #Service-part-icons-small #type-assu img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus {
+    margin-top: 4%;
+    border-width: 0.5px;
+    background-image: linear-gradient(to right, #0094dc 40%, #00f179 95%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    font: 0.7 rem "Montserrat", Arial, sans-serif; /*18*/
+    font-weight: 500;
+    height: 50px;
+    /* letter-spacing: 1px; */
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    z-index: 2;
+}
+
+#Service-part-decouvrir-plus {
+    margin-top: 4%;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover {
+    color: #fff;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus span {
+    align-items: center;
+    background: #002d70;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: white;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus span#text {
+    background: -webkit-linear-gradient(0deg, #0094dc 40%, #00f179 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover span#text {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Service-part-decouvrir-plus a#decouvrir-plus:hover span {
+    background: transparent;
+}
+/* Services-Part END */
+
+/* Services-Pro */
+#Service-pro {
+    padding-top: 0%;
+}
+
+#Service-pro .underline {
+    padding-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#Service-pro h2 {
+    padding-top: 0%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Service-pro p {
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0%;
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 14px;
+}
+
+#Service-pro-icons #type-assu {
+    padding-top: 5%;
+}
+
+#Service-pro-icons #type-assu img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #Service-pro-icons-small {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Service-pro-icons {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    #Service-pro-icons-small #type-assu {
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #Service-pro-icons-small #type-assu img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus {
+    margin-top: 4%;
+    border-width: 0.5px;
+    background-image: linear-gradient(to right, #0094dc 40%, #00f179 95%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    font: 0.7 rem "Montserrat", Arial, sans-serif; /*18*/
+    font-weight: 500;
+    height: 50px;
+    /* letter-spacing: 1px; */
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    z-index: 2;
+}
+
+#Service-pro-decouvrir-plus {
+    margin-top: 4%;
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus:hover {
+    color: #fff;
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus span {
+    align-items: center;
+    background: -webkit-linear-gradient(0deg, #0094dc 40%, #00f179 90%);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: white;
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus span#text {
+    /* background: -webkit-linear-gradient(0deg,#0094dc 40%, #00f179 90%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;        */
+    color: white;
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus:hover span#text {
+    /* background: white;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;        */
+    color: white;
+    font-size: 17px;
+}
+
+#Service-pro-decouvrir-plus a#decouvrir-plus:hover span {
+    background: transparent;
+}
+
+/* Services-Pro END */
+
+/* Separator */
+#separator {
+    box-shadow: 1px 1px 5px #01062c;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        #000e21 -20%,
+        #003781 45%,
+        #00c2de 60%,
+        #003781 90%,
+        #000e21 110%
+    );
+}
+/* END Separator */
+
+.carre-container {
+    background-color: rgb(0, 34, 94, 1);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 320px;
+    min-width: 230px;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: solid 1px rgb(255, 255, 255, 0.1);
+}
+
+.carre-container:hover {
+    background-color: #030e5e;
+}
+
+/* Changements pour la version mobile */
+
+@media (max-width: 485px) {
+    #quismnous h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #quismnous .underline {
+        margin-top: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #quismnous p {
+        font-size: small;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #partenaires-small h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    #partenaires-small h3 {
+        font-size: large;
+        font-weight: 300;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    #partenaires-small .underline {
+        margin-top: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #partenaires-small p {
+        font-size: small;
+        font-family: sans-serif;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #partenaires-small li {
+        font-size: small;
+        font-family: sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #nosvaleurs h2 {
+        font-size: larger;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+
+    .landing-body {
+        background-image: none;
+        background-color: #002d70;
+    }
+
+    .carre-container {
+        width: 90%;
+    }
+
+    div#raisons-buttons-content {
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item:nth-of-type(1) { order: 1; }
+    .flex-item:nth-of-type(2) { order: 4; }
+    .flex-item:nth-of-type(3) { order: 3; }
+    .flex-item:nth-of-type(4) { order: 2; }
+}
+/* Changements pour la version mobile Fin */
