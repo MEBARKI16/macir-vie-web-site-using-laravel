@@ -99,7 +99,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item dropdown col-2 newsletter-desk" id="bgnavitem" style="min-width:fit-content;max-width:fit-content;;display: flex; justify-content: center; ">
-                                            <a href="#" class="nav-link l1" data-toggle="modal" data-target="#modalEbook">
+                                            <a href="{{ route(app()->getLocale(). '-news')}}" class="nav-link l1" data-toggle="modal" data-target="#modalEbook">
                                                 <i class="fas fa-book svg-inline--fa fa-w-12" aria-hidden="true"></i>
                                                 {{ __('navbar.DISCOVER_US') }}<span class="sr-only">(current)</span>
                                             </a>
@@ -293,7 +293,7 @@
 
         <div class="all-content-apart-navbar">
             
-     
+                @include('layouts/modalEbook')
             @yield('content')
 
             <div id="separator">
